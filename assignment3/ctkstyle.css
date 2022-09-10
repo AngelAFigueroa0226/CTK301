@@ -1,0 +1,31 @@
+a:link {
+  color: #ff0000;
+}
+
+a:hover {
+  color: #F4FF33;
+}
+
+a:visited {
+  color: #00cc00;
+}
+
+.info {
+  color: #3338FF;
+}
+
+h1 {
+  color: #D210DB;
+}
+
+h2 {
+  color: #E317EC;
+}
+
+h3 {
+  color: #E26FED
+}
+
+#list {
+  color: #E9B40F;
+}
