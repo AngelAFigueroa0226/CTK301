@@ -1,0 +1,29 @@
+a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00dd00;
+  text-decoration: underline;
+}
+
+h1 {
+  color: #ff0000;
+}
+
+#taxi {
+  color: #00dd00;
+}
+
+.Father {
+  color: #0000ff;
+}
+
+#modern {
+  background-color: #ff0000;
+}
+
+#normal {
+  color: #0000ff;
+}
