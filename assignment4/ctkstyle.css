@@ -1,0 +1,65 @@
+p {
+  font-family: sans-serif;
+}
+
+a:link {
+  color: #ff0000;
+  font-family: sans-serif;
+}
+
+a:hover {
+  color: #F4FF33;
+  font-family: sans-serif;
+}
+
+a:visited {
+  color: #00cc00;
+  font-family: sans-serif;
+}
+
+.info {
+  color: #3338FF;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #f5a418;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h2 {
+  color: #f5a418;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h3 {
+  color: #f5a418;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+#list {
+  color: #E9B40F;
+}
+
+.currentpage{
+  font-family: sans-serif;
+}
+
+.centered {
+  text-align: center;
+}
+
+.justified {
+  text-align:justify;
+}
+
+.imageborder {
+  border: 10px solid #000000;
+  padding: 5px 5px 5px 5px;
+}
