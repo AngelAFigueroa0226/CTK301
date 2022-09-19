@@ -1,0 +1,33 @@
+#sky {
+  background-color: #37C9F3;
+}
+h1 {
+  color: #ffffff;
+}
+a {
+  color: #00cc00;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
+h2 {
+  color: #0000ff;
+}
+#doctor {
+  color: #F2D711;
+}
+.yellowback {
+  background-color: #FFF700;
+}
+.redtxt {
+  color: #ff0000;
+}
+#father {
+  color: #f2d711;
+  background-color: #008E1A;
+}
+#art {
+  background-color: #05ED30;
+}
