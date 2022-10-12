@@ -1,0 +1,104 @@
+#wrapper {
+  margin: 1em auto;
+  width: 961px;
+  border: 5px solid #0C6BB9;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+body {
+  background-color: #999999;
+}
+#header {
+  grid-column: span 12;
+  background-image: linear-gradient(to bottom, #15a4ff, #1191e1, #0e7ec4, #0c6ca8, #0b5a8c);
+}
+header {
+  grid-column: span 12;
+  font-style: italic;
+  font-weight: normal;
+}
+.hlink {
+    color: #00B6FF;
+    text-decoration: none;
+    font-style: italic;
+    padding-left: 1em;
+    font-family: helvetica, arial, sans-serif;
+}
+.hlink:hover {
+    color: #00EEFF;
+}
+nav {
+  grid-column: span 12;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom, #1186d0, #0f7bbf, #0d70ad, #0c659d, #0b5a8c);
+}
+nav ul li {
+  width: 220px;
+  display: inline-block;
+  background-image: linear-gradient(to bottom, #1186d0, #0f7bbf, #0d70ad, #0c659d, #0b5a8c);
+}
+nav li a {
+  display: block;
+  color: #00B6FF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 1em;
+  background-image: linear-gradient(to bottom, #1186d0, #0f7bbf, #0d70ad, #0c659d, #0b5a8c);
+  border-right: 8px solid #0b5a8c;
+}
+nav li a:hover {
+  color: #01E5F5;
+  background-image: linear-gradient(to bottom, #1497ea, #1187d2, #0e78ba, #0c69a3, #0b5a8c);
+}
+main {
+  grid-column: span 12;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+h2 {
+  border-bottom: 3px solid #0C6BB9;
+  color: #0C6BB9;
+  font-family: helvetica, arial, sans-serif;
+}
+.stopfloat{
+  clear: both;
+}
+.makebold{
+  font-weight: bold;
+  text-align: justify;
+}
+.floatimage {
+  float: left;
+  border: 3px solid #0C6BB9;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.floatimage2 {
+  float: right;
+  border: 3px solid #0C6BB9;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+#crashmore {
+  margin-left: 2em;
+  border: 3px solid #0C6BB9;
+}
+.plink {
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: bold;
+}
+.plink:hover {
+  color: #0000ff;
+  text-decoration: underline;
+}
+footer {
+  grid-column: span 12;
+  border-top: 5px solid #0C6BB9;
+  background-color: #ff0000;
+}
