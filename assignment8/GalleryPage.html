@@ -3,10 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Gallery Page</title>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
 	<link href="Blank1200px.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -18,23 +20,26 @@
 
 	<main>
 		<h2>Games</h2>
-		<img class="floatimage" src="Birdhouse.jpg" alt="Birdhouse Placeholder">
-		<img class="centerimage" src="Birdhouse.jpg" alt="Birdhouse Placeholder">
-		<img class="centerimage" src="Birdhouse.jpg" alt="Birdhouse Placeholder">
-		<img class="centerimage" src="Birdhouse.jpg" alt="Birdhouse Placeholder">
+			<div id="myCarousel" class="carousel">
+				<div class="carousel__slide"><img src="Birdhouse.jpg" alt="Birdhouse Placeholder"></div>
+				<div class="carousel__slide"><img src="Birdhouse.jpg" alt="Birdhouse Placeholder"></div>
+				<div class="carousel__slide"><img src="Birdhouse.jpg" alt="Birdhouse Placeholder"></div>
+				<div class="carousel__slide"><img src="Birdhouse.jpg" alt="Birdhouse Placeholder"></div>
+			</div>
 		<h2>Audio</h2>
-		<img class="floatimage" src="Birdhouse.jpg" alt="Birdhouse Placeholder">
-		<audio controls autobuffer autoplay >
-  <source src="TestBeat.mp3" type="audio/mpeg" />
-</audio>
-		<img class="centerimage" src="Birdhouse.jpg" alt="Birdhouse Placeholder">
-		<img class="centerimage" src="Birdhouse.jpg" alt="Birdhouse Placeholder">
-		<img class="centerimage" src="Birdhouse.jpg" alt="Birdhouse Placeholder">
+		<div id="myCarousel2" class="carousel">
+			<div class="carousel__slide"><img src="Birdhouse.jpg" alt="Birdhouse Placeholder"></div>
+		  <div class="carousel__slide"><img src="Birdhouse.jpg" alt="Birdhouse Placeholder"></div>
+			<div class="carousel__slide"><img src="Birdhouse.jpg" alt="Birdhouse Placeholder"></div>
+			<div class="carousel__slide"><img src="Birdhouse.jpg" alt="Birdhouse Placeholder"></div>
+		</div>
 		<h2>Video</h2>
-		<img class="floatimage" src="Birdhouse.jpg" alt="Birdhouse Placeholder">
-		<img class="centerimage" src="Birdhouse.jpg" alt="Birdhouse Placeholder">
-		<img class="centerimage" src="Birdhouse.jpg" alt="Birdhouse Placeholder">
-		<img class="centerimage" src="Birdhouse.jpg" alt="Birdhouse Placeholder">
+		<div id="myCarousel3" class="carousel">
+		<div class="carousel__slide"><img src="Birdhouse.jpg" alt="Birdhouse Placeholder"></div>
+		<div class="carousel__slide"><img src="Birdhouse.jpg" alt="Birdhouse Placeholder"></div>
+		<div class="carousel__slide"><img src="Birdhouse.jpg" alt="Birdhouse Placeholder"></div>
+		<div class="carousel__slide"><img src="Birdhouse.jpg" alt="Birdhouse Placeholder"></div>
+	</div>
 	</main>
 
 	<nav>
@@ -59,5 +64,14 @@
 		<p>Copyright 2022</p>
 	</footer>
 	</div>
+<script>
+		const myCarousel = new Carousel(document.querySelector("#myCarousel"), {
+		});
+		const myCarousel2 = new Carousel(document.querySelector("#myCarousel2"), {
+		});
+		const myCarousel3 = new Carousel(document.querySelector("#myCarousel3"), {
+		});
+</script>
+
 </body>
 </html>
