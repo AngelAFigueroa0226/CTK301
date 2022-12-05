@@ -115,18 +115,20 @@ main h3{
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 10px;
+  text-align: center;
 }
 
 #socials h2{
-  padding-left: 10px;
 }
 
-#socials ul{
-  list-style: none;
+#socials a{
+  color: white;
+  text-decoration: none;
 }
 
-#socials li{
-  margin-bottom: 24px;
+#socials a:hover{
+  color: #D8D8D8;
+  transition: color 0.5s;
 }
 
 footer {
