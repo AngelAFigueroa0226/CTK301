@@ -23,7 +23,7 @@ header{
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-top-right-radius: 10px;
-  text-shadow: 2px 2px 2px #aaa;
+  text-shadow: 2px 2px 2px #777777;
 }
 
 main{
@@ -159,7 +159,7 @@ footer {
   justify-content: center;
 
   width: 80%;
-  height: 700px;
+  height: 500px;
   margin-right: 6px;
 
   background-color: #eee;
